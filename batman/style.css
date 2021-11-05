@@ -1,0 +1,75 @@
+
+.logo {
+   background-color: rgb(236, 228, 228);
+   height: 150px;
+   padding-bottom: 10px;
+}
+
+.logo-b{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    background-color:#C4C4C4;
+    text-align: center;
+    height: 45px;
+    padding-top: 5px;
+    margin: 0px;
+    color: #005677;
+    
+}
+.blanco {
+    height: 80px;
+    
+}
+ 
+h2 {
+    background-color: #C4C4C4;
+    margin: 0px;
+    padding-left: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #005677;
+}
+
+.Datos {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+}
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px; 
+}
+
+.datos-b {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.li-m {
+    margin-left: 70px;
+}
+
+.pie {
+    background-color: #005677;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-top: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-icon {
+    list-style-type: none;
+    display: flex;
+    
+}
+.pie-icon li {
+    padding: 0 5px;
+}
+
