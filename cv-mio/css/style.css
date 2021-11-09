@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;;
+    
+}
+.logo {
+    background-image: url(/cv-mio/imagenes/fuji-rosa.png);
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+ }
+ 
+ .logo-b{
+     display: block;
+     margin: auto;
+     width: 100px;
+     height: 100px;
+     border-radius: 30px;
+ }
+ 
+ h1{
+     background-color: #9c83ff;
+     text-align: center;
+     height: 45px;
+     padding-top: 5px;
+     margin: 0px;
+     color:#d5cfd5; 
+     font-family: 'Josefin Sans', sans-serif;
+     
+ }
+ .blanco {
+     height: 80px;
+     
+ }
+  
+ h2 {
+     background-color: #9c83ff;
+     margin: 0px;
+     padding-left: 6px;
+     font-weight:200;
+     font-size: 20px;
+     color: #d5cfd5;
+ }
+ 
+ .Datos {
+     font-size: 15px;
+     
+ }
+ li {
+     font-size: 15px; 
+ }
+ 
+ .datos-b {
+     font-size: 15px;
+     font-weight: bold;
+ }
+ 
+ .li-m {
+     margin-left: 70px;
+ }
+ 
+ .pie {
+     background-color: #9c83ff;
+     text-align: center;
+     font-size: 16px;
+     padding-top: 30px;
+     color: #d5cfd5;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .pie-icon {
+     list-style-type: none;
+     display: flex;
+     
+ }
+ .pie-icon li {
+     padding: 0 5px;
+     
+ }
+ 
+ul {
+    height: 80px;
+    padding-top: 10px;
+}
