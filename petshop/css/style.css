@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo barra negra*/
+
+.tope {
+    background-color:#222222;
+    height: 10%;
+    width: 100%;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 400;
+   
+}
+
+ul.comederos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    list-style: none;
+    align-items: center;
+}
+
+ul.idiomas{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+select.boton-1{
+    background-color: #222222;
+    color: #F3F3F3;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+li {
+    padding: 2px;
+}
+
+/* ESTILOS DEL HEADER*/
+
+.header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-list {
+    display: flex;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    list-style: none;
+
+}
+
+.logo {
+    width: 166px;
+    height: 23px;
+}
+
+/*PARTE PRINCIPAL CON FOTO*/
+
+.header-main {
+    background-image: url("../imagenes/fondo.png");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.text-main {
+    top: 200px;
+    right: 11px;
+    width: 365px;
+    height: 146px;
+    text-align: center;
+    position: absolute;
+}
+
+.text-main h3 {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3C2313;
+}
+
+.text-main h4 {
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 50px;
+    color: #3C2313;
+
+}
+
+.boton {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+    width: 141px;
+    height: 49px;
+    border-radius: 6px;
+    border: solid  #F0A83E;
+
+}
+
+/* PRODUCTOS DESTACADOS*/
+.section-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.patita {
+    width: 67px;
+    height: 71px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.productos {
+    color: #3C2313;
+    font-weight: 700px;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.lista-section {
+    display: flex;
+    color: #666666;
+    width: 267px;
+    height: 18px;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*JUGUETES*/
+
+.article-cards {
+    display: flex;
+    
+}
+
+.div-card {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #3C2313;
+    background-color: #FBFAF6;
+    text-align: center;
+    margin:40px 20px 20px 20px;
+    width: 265px;
+    height:312px;
+}
+.precio {
+    font-weight: 500;
+    font-size: 15px;
+    color:#F0A83E;
+}
+
+/*FORMULARIO*/
+
+.contacto {
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C2313;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.div-form {
+    width: 340px;
+    height: 40px;
+    margin: 6px;
+    padding: 15px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-weight: 400px;
+    font-size: 9px;
+}
+
+.input-form {
+    background-color: #3C2313 ;
+    font-size: 9px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.boton-form{
+    display: flex;
+    justify-content: center;
+}
+
+.botones {
+    width: 110px;
+    height: 34px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-weight: 400px;
+    font-size: 16px;
+    border: none;
+    margin: 40px 6px;
+}
+
+.reset {
+    background-color:  #8A8787;
+}
+
+.enviar {
+    background-color: #F0A83E;
+
+}
+
+/*SUSCRPCION*/
+
+.suscripcion {
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;   
+}
+
+.img-suscripcion {
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+}
+.img-suscripcion p {
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.form-suscripcion {
+    display: flex;
+    align-items: center;
+    margin: 10px 47px ;
+}
+
+.input-mail {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+    border: none;
+    padding-left: 8px;
+}
+
+.boton-sus {
+    width: 70px;
+    height: 34px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 8px;
+
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #3C2313;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 70px;
+}
+
+.data {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.data-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 66px;
+    height: 66px;
+}
+
+.data-f {
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.data-f p {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700px;
+}
+
+.logo-f {
+    position: relative;
+    right: 70px;
+    top: 110px;
+}
+
+.derechos-f {
+    width: 100%;
+    height: 20px;
+    background-color: #222222;
+}
+
+.derechos-p {
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
